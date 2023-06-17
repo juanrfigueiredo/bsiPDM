@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:title="Home" />
+    <item
+        android:id="@+id/navPesquisar"
+        android:title="Pesquisar" />
+    <item
+        android:id="@+id/navConfig"
+        android:enabled="true"
+        android:title="Configuracoes">
+        <menu>
+            <item
+                android:id="@+id/settingSinc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Sincronizar"
+                app:actionLayout="@layout/switch_item"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/settingBackup"
+                android:title="Backup"
+                app:actionLayout="@layout/switch_item"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>
