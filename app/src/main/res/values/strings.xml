@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppNavDrawer</string>
+    <string name="image_view_1">Android Logo</string>
+    <string name="text_view_1">Minhas Opções</string>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+</resources>
